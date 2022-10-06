@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400; */
+
+  color :#242424;
+  /* background: rgb(20,202,235);
+  background: linear-gradient(90deg, rgba(20,202,235,1) 0%, rgba(48,72,232,1) 100%); */
+
+  background: rgb(41,205,233);
+  background: linear-gradient(90deg, rgba(41,205,233,1) 0%, rgba(47,113,214,1) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
